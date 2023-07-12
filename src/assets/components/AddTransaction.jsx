@@ -8,11 +8,11 @@ const AddTransaction = () => {
       <h3>Add new transaction</h3>
       <form id="form">
         <div className="form-control">
-          <label htmlFor="text">Text</label>
+          <label htmlFor="text" style = {{color:'#333'}}>Text</label>
           <input type="text" value = {text} onChange={(event) => setText(event.target.value)} placeholder="Enter text..." />
         </div>
         <div className="form-control">
-          <label htmlFor="amount">
+          <label htmlFor="amount" style = {{color:'#333'}} >
             Amount <br />
             (negative - expense, positive - income)
           </label>
